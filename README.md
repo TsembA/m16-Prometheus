@@ -98,10 +98,11 @@ Make sure your `redis-values.yaml` includes proper target configuration for your
 
 ```
 .
-├── config-micro.yaml                  # Microservices deployment manifest
-├── prometheus-rules.yaml             # Custom PrometheusRule definitions
-├── redis-values.yaml                 # Helm values for Redis exporter
-└── comands.md                       # This file
+├── config-micro.yaml                # Microservices deployment manifest
+├── alert-rules.yaml                 # Custom PrometheusRule definitions
+├── redis-values.yaml                # Helm values for Redis exporter
+├── test-curl-busy-box.sh            # Script to test workload
+└── README.md                       # This file
 
 ```
 
