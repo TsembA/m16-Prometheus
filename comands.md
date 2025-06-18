@@ -101,7 +101,7 @@ Make sure your `redis-values.yaml` includes proper target configuration for your
 ├── config-micro.yaml                  # Microservices deployment manifest
 ├── prometheus-rules.yaml             # Custom PrometheusRule definitions
 ├── redis-values.yaml                 # Helm values for Redis exporter
-└── comands.txt                        # This file
+└── comands.md                       # This file
 
 ```
 
